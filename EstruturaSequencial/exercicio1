@@ -1,0 +1,25 @@
+package EstruturaSequencial;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class exercicio1 {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner in = new Scanner(System.in);
+		
+		double largura = in.nextDouble();
+		double comprimento = in.nextDouble();
+		double metroQuadrado = in.nextDouble();
+		
+		double area = largura * comprimento;
+		double preco = area * metroQuadrado;
+		
+		System.out.printf("AREA = %.2f%n",  area);
+		System.out.printf("PRECO = %.2f%n", preco);
+		
+		in.close();
+	}
+}
