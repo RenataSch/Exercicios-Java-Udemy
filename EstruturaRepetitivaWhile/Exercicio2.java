@@ -20,7 +20,7 @@ public class Exercicio2 {
 			senha = sc.nextInt();
 		}
 		
-		System.out.println("\"Acesso Permitido");
+		System.out.println("Acesso Permitido");
 		
 
 	}
